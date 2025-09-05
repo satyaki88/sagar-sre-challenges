@@ -44,9 +44,11 @@ Your task:
 
 Identify which layer(s) might be failing based on symptoms
 DNS resolves that doesnt mean application is working. DNS runs on port 53 , application running on 5000
-       Layer 3: Network issues (IP/routing)
-       Layer 4: Port/Firewall blocking
-       Layer 7: Apllication might not running
+| OSI layer | issues |
+|---|---|
+| Layer 3 | Network issues (IP/routing)
+| Layer 4 | Port/Firewall blocking
+| Layer 7 | Apllication might not running
 
 List which commands/tools you would use in order to troubleshoot—from bottom to top
    | Troubleshoot layer | tools |
