@@ -49,11 +49,9 @@ DNS resolves that doesnt mean application is working. DNS runs on port 53 , appl
        Layer 7: Apllication might not running
 
 List which commands/tools you would use in order to troubleshoot—from bottom to top
-   physical layer troubleshoot:
-      ipconfig (check cable connection , wifi signal)
-   Network layer:
-      ping 10.10.10.20
-   Transport layer to check port 5000 is open
-      netstat -tulnp |grep 5000
-   application layer:
-      curl http://10.10.10.20:5000
+   | Troubleshoot layer | tools |
+   |---|---|
+   | physical layer troubleshoot | ipconfig (check cable connection , wifi signal)
+   | Network layer |  ping 10.10.10.20
+   | Transport layer | check port 5000 is open using netstat -tulnp |grep 5000
+   | application layer | curl http://10.10.10.20:5000
