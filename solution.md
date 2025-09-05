@@ -1,8 +1,8 @@
 
 | Layer | Number | Example Protocols	| Example Tools |	Data Unit (PDU)
 |---|---|---|---| --|
-| Application |	7	| HTTP, SSH, DNS, SMTP |	curl, ssh, dig	Data / Message
-| Presentation |	6	|SSL/TLS, ASCII, JPEG	|openssl	Data
+| Application |	7	| HTTP, SSH, DNS, SMTP |	curl, ssh, dig	|Data / Message
+| Presentation |	6	|SSL/TLS, ASCII, JPEG	|openssl	|Data
 | Session |	5	|NetBIOS, RPC, TLS session|		|Data
 | Transport |	4 |	TCP, UDP|	nc, ss, netstat	|Segment (TCP) / Datagram (UDP)
 | Network	| 3	|IP, ICMP	|ip, ping, traceroute	|Packet
