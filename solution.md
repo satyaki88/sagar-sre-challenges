@@ -10,7 +10,13 @@
 | Physical |1	|Cables, Wi-Fi, fiber	| ethtool, ip link	|Bit
 
 
-
+TCP/IP Model (4 Layers)
+|Layer	|OSI Layer(s)	|Example Protocols/Tools
+|---|---|---|
+|Application|	7, 6, 5|	HTTP, SSH, DNS, TLS, curl
+|Transport|	4	|TCP, UDP, nc, ss
+|Internet|	3	|IP, ICMP, ping, traceroute
+|Network Access|	2, 1|	Ethernet, ARP, ip link, ethtool
 
 
 
